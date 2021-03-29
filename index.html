@@ -45,10 +45,10 @@ function writeData(){
     $contents = $_POST['contents'];
     $contents = nl2br($contents);
 
-    $data = "<hr>¥r¥n";
-    $data = $data."<p>投稿者:".$personal_name."</p>¥r¥n";
-    $data = $data."<p>内容:</p>¥r¥n";
-    $data = $data."<p>".$contents."</p>¥r¥n";
+    $data = "<hr>;
+    $data = $data."<p>投稿者:".$personal_name."</p>;
+    $data = $data."<p>内容:</p>;
+    $data = $data."<p>".$contents."</p>";
 
     $keijban_file = 'keijiban.txt';
 
